@@ -1,3 +1,39 @@
+.custom-header {
+      height: 4.5rem;
+      background-color: lightsalmon;
+      font-size: 2.5rem;
+      font-family: 'Playfair Display', serif;
+      font-weight: 800;
+}
+
+.custom-sidebar {
+      height: 100%;
+      width: 20vw;
+      background-color: darksalmon;
+      padding-top: 2rem;
+}
+
+.quest-panel {
+      width: 80vw;
+      background-color: blanchedalmond;
+      overflow-y: scroll;
+}
+
+.quest-panel::-webkit-scrollbar {
+      width: 0.5rem;
+}
+     
+.quest-panel::-webkit-scrollbar-track {
+      /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+}
+
+.quest-panel::-webkit-scrollbar-thumb {
+      background-color: lightsalmon;
+      outline: none;
+      border-radius: 1rem;
+
+}
+
 .quest-link {
       margin-left: 2rem;
       font-size: 1.3rem;
