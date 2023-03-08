@@ -1,0 +1,25 @@
+<div style="height: 100vh; width: 100vw;" class="d-flex flex-column border border-5 border-dark">
+  <div id="Header" style="height: 6rem; background-color: lightsalmon;" class="border-bottom border-5 border-dark d-flex justify-content-center align-content-center">
+    <p style="font-size: 3rem; font-family: 'Playfair Display', serif; font-weight: 800;">Quest Log</p>
+  </div>
+  <div id="MainContent" class="d-flex flex-row flex-grow-1" style=" height: 100px;">
+    <div id="Sidebar" class="border-end border-5 border-dark d-flex flex-column" style="height: 100%; width: 20vw; background-color: darksalmon; padding-top: 2rem;">
+      
+      <div id="QuestContainer" class="d-flex flex-column" style="margin-bottom: 1rem;" *ngFor="let quest of nowJsonData.quests">
+        <a class="quest-link"><i class="bi bi-award-fill"></i> {{quest.nome}}</a>
+        <a class="subquest-link" (click)="selectSubquest(subquest)" *ngFor="let subquest of quest.subquests"><i class="bi bi-arrow-return-right"></i>  {{subquest.nome}}</a>
+      </div>
+    </div>
+    <div id="QuestPanel" style="width: 80vw; background-color: blanchedalmond; overflow-y: scroll;"> 
+      <div id="PanelContent" class="d-flex flex-column" style="padding: 1rem 3rem;" *ngIf="selected">
+        <p style="text-align: center; font-size: 2rem; font-weight: bold;">{{selectedSubquest.nome}}</p>
+        <p style="font-weight: 500;">{{selectedSubquest.descricao}}</p>
+        <div id="Peca" *ngFor="let peca of selectedSubquest.pecas" style="margin-bottom: 1rem;">
+          <a style="font-weight: bold;"><i class="bi" [ngClass]="{'bi-caret-down-fill':true}"></i> {{peca.objetivo}}</a>
+          <p *ngFor="let resultado of peca.resultados" style="font-weight: 500;">{{resultado}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
