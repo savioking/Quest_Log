@@ -71,16 +71,31 @@
 /* MOBILE STYLES */
 
 @media screen and (max-width: 425px) {
+      .custom-sidebar {
+            position: absolute;
+            padding-right: 0;
+            /* border: none !important; */
+            width: calc(100vw - 5px);
+            height: calc(100vh - 4.5rem - 10px);
+
+      }
+
       .custom-sidebar.sidebar-hidden {
             /* display: none !important; */
             width: 0;
             /* padding: 0; */
 
-            /* border: none !important; */
+            border: none !important;
+      }
+
+      .quest-container.sidebar-hidden {
+            /* overflow: hidden; */
+            /* display: none !important; */
       }
 
       .quest-container {
-            display: none !important;
+            overflow: hidden;
+            white-space: nowrap;
       }
 
       .quest-panel {
@@ -89,11 +104,14 @@
       }
 
       .float-menu {
+            z-index: 100;
             width: 3rem;
             height: 3rem;
+            overflow-x: hidden;
             border-bottom-right-radius: 50%;
             position: absolute;
             top: 4.8rem;
+            right: calc(100vw - 3rem - 5px);
             background-color: lightsalmon;
             border-right: 5px solid;
             border-bottom: 5px solid;
@@ -102,11 +120,40 @@
             /* align-items: center; */
             padding-left: 0.5rem;
             padding-top: 0.6rem;
+            transition: 0.4s;
+      }
+
+      .float-menu.sidebar-hidden {
+            right: 5px;
+            border-right: none;
+            border-left: 5px solid;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 50%;
       }
 
       .dash {
             border-top: 4px solid;
             width: 1.5rem;
             padding-top: 0.3rem;
+      }
+
+      .dash-top {
+            transform: rotate(135deg);
+            position: relative;
+            top: 5px;
+            left: -3px;
+            width: 1.7rem;
+      }
+
+      .dash-hidden {
+            display: none;
+      }
+
+      .dash-bot {
+            transform: rotate(45deg);
+            position: relative;
+            top: 0px;
+            left: -3px;
+            width: 1.7rem;
       }
 }

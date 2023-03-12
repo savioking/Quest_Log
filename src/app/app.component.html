@@ -3,16 +3,16 @@
     <p>~ Quest Log ~</p>
   </div>
   
-  <div (click)="toggleSideBar()" class="float-menu">
-    <span class="dash"></span>
-    <span class="dash"></span>
-    <span class="dash"></span>
+  <div (click)="toggleSideBar()" draggable="true" (drag)="toggleSideBar()" [ngClass]="{'sidebar-hidden':sideBarOpen}" class="float-menu">
+    <span class="dash" [ngClass]="{'dash-top':sideBarOpen}"></span>
+    <span class="dash" [ngClass]="{'dash-hidden':sideBarOpen}"></span>
+    <span class="dash" [ngClass]="{'dash-bot':sideBarOpen}"></span>
   </div>
   <div id="MainContent" class="d-flex flex-row flex-grow-1" style="height: 100px;">
 
 
     <div id="Sidebar" [ngClass]="{'sidebar-hidden':!sideBarOpen}" class="custom-sidebar border-end border-5 border-dark d-flex flex-column">
-      <div id="QuestContainer" class="quest-container d-flex flex-column" style="margin-bottom: 1rem;" *ngFor="let quest of nowJsonData.quests">
+      <div id="QuestContainer" [ngClass]="{'sidebar-hidden':!sideBarOpen}" class="quest-container d-flex flex-column" style="margin-bottom: 1rem;" *ngFor="let quest of nowJsonData.quests">
         <a class="quest-link"><i class="bi bi-bookmark-fill"></i> {{quest.nome}}</a>
         <a class="subquest-link" (click)="selectSubquest(subquest)" *ngFor="let subquest of quest.subquests"><i class="bi bi-arrow-return-right"></i>  {{subquest.nome}} <i *ngIf="subquest.concluida" class="bi bi-check-circle-fill"></i></a>
       </div>

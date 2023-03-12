@@ -66,6 +66,7 @@ export class AppComponent implements OnInit {
 
     this.selectedSubquest = subquest
     this.selected = true;
+    this.toggleSideBar()
     
   }
 
