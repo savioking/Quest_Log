@@ -1,103 +1,290 @@
 {
       "quests": [
+        {
+          "nome": "O Bruxo Odioso",
+          "subquests": [
             {
-                  "nome": "O Bruxo Odioso",
-                  "subquests": [
-                        {
-                              "nome": "Chupacabras à Solta",
-                              "descricao": "O grupo recebe um pedido de ajuda de Gael, o velho dono da estalagem que leva o seu nome. Seus animais estão sumindo durante a noite e outros fazendeiros da região reclamaram também.",
-                              "pecas": [
-                                    {
-                                          "objetivo": "Investigar os ataques noturnos",
-                                          "status": "sucesso",
-                                          "resultados": ["O grupo descobre criaturas humanoides sendo as responsáveis pelos ataques, o que os leva até uma caverna próxima, nos Picos Nublados."]
-                                    },
-                                    {
-                                          "objetivo": "Investigar a caverna dos chupacabras",
-                                          "status": "falha",
-                                          "resultados": ["O grupo é derrotado por um ogro e aprisionado na caverna que investigavam."]
-                                    },
-                                    {
-                                          "objetivo": "Libertar-se da prisão",
-                                          "status": "sucesso",
-                                          "resultados": ["O grupo eventualmente se liberta e luta contra um elfo amaldiçoado com licantropia que protegia o caminho para os aposentos de um bruxo contra sua vontade."]
-                                    },
-                                    {
-                                          "objetivo": "Matar os chupacabras",
-                                          "status": "sucesso",
-                                          "resultados": ["Depois de derrotar os monstros, o grupo descobre que as criaturas atacando as fazendas eram elfos terrivelmente amaldiçoados pelo bruxo que se escondia na caverna. Eles encontram os aposentos do bruxo."]
-                                    },
-                                    {
-                                          "objetivo": "Derrotar Kukram, o Bruxo",
-                                          "status": "sucesso",
-                                          "resultados": ["O grupo enfim se encontra com Kukram, o bruxo que experimentava um ritual sombrio para transformar elfos em criaturas deformadas e canibais. Eles derrotam uma versão mais potente de uma das aberrações sombrias e capturam o bruxo. Além disso, Ambrosia deixa o grupo e leva Kukram à prisão em Palthar."]
-                                    },
-                                    {
-                                          "objetivo": "Conseguir informações sobre os chupacabras",
-                                          "status": "sucesso",
-                                          "resultados": ["O grupo descobre que os elfos eram prisioneiros puristas antes de serem comprados por Kukram. O bruxo era aprendiz de uma feiticeira ainda mais poderosa que havia lhe ensinado aqueles rituais através de correspondência por cartas. Edmund envia uma correspondência de volta, acreditando ser sua mãe a misteriosa."]
-                                    }
-                              ]
-                        },
-                        {
-                              "nome": "Horda Imortal",
-                              "descricao": "Depois de quatro anos sem estar presentes em Namalkah, o grupo descobre que Kukram escapou da prisão e montou uma horda de goblinoides extraplanares que desceram dos céus em Namalkah quando Ragnar morreu. A horda pilha os campos e assalta viajantes, causando grandes problemas para o reino.",
-                              "pecas": [
-                                    {
-                                          "objetivo": "Enfrentar a horda",
-                                          "status": "progresso",
-                                          "resultados": []
-                                    }
-                              ]
-                        }
+              "nome": "Chupacabras à Solta",
+              "descricao": "O grupo recebe um pedido de ajuda de Gael, o velho dono da estalagem que leva o seu nome. Seus animais estão sumindo durante a noite e outros fazendeiros da região reclamaram também.",
+              "concluida":true,
+              "pecas": [
+                {
+                  "objetivo": "Investigar os ataques noturnos",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo descobre criaturas humanoides sendo as responsáveis pelos ataques, o que os leva até uma caverna próxima, nos Picos Nublados."
                   ]
+                },
+                {
+                  "objetivo": "Investigar a caverna dos chupacabras",
+                  "status": "falha",
+                  "resultados": [
+                    "O grupo é derrotado por um ogro e aprisionado na caverna que investigavam."
+                  ]
+                },
+                {
+                  "objetivo": "Libertar-se da prisão",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo eventualmente se liberta e luta contra um elfo amaldiçoado com licantropia que protegia o caminho para os aposentos de um bruxo contra sua vontade."
+                  ]
+                },
+                {
+                  "objetivo": "Matar os chupacabras",
+                  "status": "sucesso",
+                  "resultados": [
+                    "Depois de derrotar os monstros, o grupo descobre que as criaturas atacando as fazendas eram elfos terrivelmente amaldiçoados pelo bruxo que se escondia na caverna. Eles encontram os aposentos do bruxo."
+                  ]
+                },
+                {
+                  "objetivo": "Derrotar Kukram, o Bruxo",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo enfim se encontra com Kukram, o bruxo que experimentava um ritual sombrio para transformar elfos em criaturas deformadas e canibais. Eles derrotam uma versão mais potente de uma das aberrações sombrias e capturam o bruxo. Além disso, Ambrosia deixa o grupo e leva Kukram à prisão em Palthar."
+                  ]
+                },
+                {
+                  "objetivo": "Conseguir informações sobre os chupacabras",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo descobre que os elfos eram prisioneiros puristas antes de serem comprados por Kukram. O bruxo era aprendiz de uma feiticeira ainda mais poderosa que havia lhe ensinado aqueles rituais através de correspondência por cartas. Edmund envia uma correspondência de volta, acreditando ser sua mãe a misteriosa."
+                  ]
+                }
+              ]
             },
             {
-                  "nome": "Aephyra sob o Manto",
-                  "subquests": [
-                        {
-                              "nome": "Gema Oculta",
-                              "descricao": "Durante um encontro romântico com Naomi, Edmund recebe a visita de um grande corvo albino com uma carta endereçada a ele. A carta era uma resposta à que ele enviou à feiticeira mestra do bruxo Kukram, confirmando que ela era de fato sua mãe, Aephyra. Ela convida o seu filho a visitá-la no seu lar, nos Picos Nublados. Edmund, no entanto, deseja vingança pela morte do seu pai.",
-                              "pecas": [
-                                    {
-                                          "objetivo": "Investigar os Picos Nublados",
-                                          "status": "progresso",
-                                          "resultados": ["Edmund enviou um grupo de caçadores para investigar os montes e eles encontraram uma caverna expansiva e foram atacados por monstros e por kobolds."]
-                                    },
-                                    {
-                                          "objetivo": "Matar Aephyra",
-                                          "status": "progresso",
-                                          "resultados": ["Em um momento que Edmund pensou ser sua morte, ele é abordado por um pássaro branco. É Aephyra, que implora que ele a deixe salvar sua vida. Edmund se nega e Aephyra vai embora. Edmund é salvo por Mônica"]
-                                    }
-                              ]
-                        }
-                  ]
-            },
-            {
-                  "nome": "O Confabulário Possibilístico",
-                  "subquests": [
-                        {
-                              "nome": "Peças Faltando",
-                              "descricao": "Yenner não veio deste mundo e nem deste tempo. A realidade que ela lembra de pertencer era cheia de caos e destruição, talvez um futuro longínquo onde a tecnologia dominou o ser humano e o ser humano escravizou o universo. Ela precisa entender mais sobre ela e de onde ela veio.",
-                              "pecas": [
-                                    {
-                                          "objetivo": "Descobrir como Yenner voltou para o passado.",
-                                          "status": "sucesso",
-                                          "resultados": ["Yenner descobre sobre o Confabulário Possibilístico que trouxe ela a este mundo. O pedaço que ela acha lhe faz pensar que ou o universo que entrou é uma ficção trazida à vida nas bibliotecas de Terápolis ou o universo de onde ela veio é que é a história. Para descobrir mais, ela terá que encontrar mais peças da máquina, que se estilhaçou pelo espaço e tempo quando ela caiu dos céus."]
-                                    },
-                                    {
-                                          "objetivo": "Encontrar mais pedaços do confabulário.",
-                                          "status": "sucesso",
-                                          "resultados": ["Yenner encontra outro pedaço do Confabulário, enterrado fundo no subsolo de Alkav, sustentando um semiplano fictício onde o ciclo dia e noite não é contínuo e sim discreto, e os milênios parecem passar como anos.", "Ao entrar na caverna sem tempo, o grupo encontra A.E.L. uma Assistente Elemental de Luz, que era responsável por manter o semiplano até que alguém resolvesse inconsistências nele.", "Decidindo manter na existência alguns dos aliados que arranjaram no semiplano, o grupo perde 4 anos em Arton, que se passam sem a existência deles."]
-                                    },
-                                    {
-                                          "objetivo": "Encontrar mais pedaços do confabulário.",
-                                          "status":"progresso",
-                                          "resultados":[]
-                                    }
-                              ]
-                        }
-                  ]
+              "nome": "Horda Imortal",
+              "descricao": "Depois de quatro anos sem estar presentes em Namalkah, o grupo descobre que Kukram escapou da prisão e montou uma horda de goblinoides extraplanares que desceram dos céus em Namalkah quando Ragnar morreu. A horda pilha os campos e assalta viajantes, causando grandes problemas para o reino.",
+              "concluida":false,
+              "pecas": [
+                {
+                  "objetivo": "Enfrentar a horda",
+                  "status": "progresso",
+                  "resultados": []
+                }
+              ]
             }
+          ]
+        },
+        {
+          "nome": "Aephyra sob o Manto",
+          "subquests": [
+            {
+              "nome": "Gema Oculta",
+              "descricao": "Durante um encontro romântico com Naomi, Edmund recebe a visita de um grande corvo albino com uma carta endereçada a ele. A carta era uma resposta à que ele enviou à feiticeira mestra do bruxo Kukram, confirmando que ela era de fato sua mãe, Aephyra. Ela convida o seu filho a visitá-la no seu lar, nos Picos Nublados. Edmund, no entanto, deseja vingança pela morte do seu pai.",
+              "concluida":false,
+              "pecas": [
+                {
+                  "objetivo": "Investigar os Picos Nublados",
+                  "status": "progresso",
+                  "resultados": [
+                    "Edmund enviou um grupo de caçadores para investigar os montes e eles encontraram uma caverna expansiva e foram atacados por monstros e por kobolds."
+                  ]
+                },
+                {
+                  "objetivo": "Matar Aephyra",
+                  "status": "progresso",
+                  "resultados": [
+                    "Em um momento que Edmund pensou ser sua morte, ele é abordado por um pássaro branco. É Aephyra, que implora que ele a deixe salvar sua vida. Edmund se nega e Aephyra vai embora. Edmund é salvo por Mônica"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "O Confabulário Possibilístico",
+          "subquests": [
+            {
+              "nome": "Peças Faltando",
+              "descricao": "Yenner não veio deste mundo e nem deste tempo. A realidade que ela lembra de pertencer era cheia de caos e destruição, talvez um futuro longínquo onde a tecnologia dominou o ser humano e o ser humano escravizou o universo. Ela precisa entender mais sobre ela e de onde ela veio.",
+              "concluida":false,
+              "pecas": [
+                {
+                  "objetivo": "Descobrir como Yenner voltou para o passado.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "Yenner descobre sobre o Confabulário Possibilístico que trouxe ela a este mundo. O pedaço que ela acha lhe faz pensar que ou o universo que entrou é uma ficção trazida à vida nas bibliotecas de Terápolis ou o universo de onde ela veio é que é a história. Para descobrir mais, ela terá que encontrar mais peças da máquina, que se estilhaçou pelo espaço e tempo quando ela caiu dos céus."
+                  ]
+                },
+                {
+                  "objetivo": "Encontrar mais pedaços do confabulário.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "Yenner encontra outro pedaço do Confabulário, enterrado fundo no subsolo de Alkav, sustentando um semiplano fictício onde o ciclo dia e noite não é contínuo e sim discreto, e os milênios parecem passar como anos.",
+                    "Ao entrar na caverna sem tempo, o grupo encontra A.E.L. uma Assistente Elemental de Luz, que era responsável por manter o semiplano até que alguém resolvesse inconsistências nele.",
+                    "Decidindo manter na existência alguns dos aliados que arranjaram no semiplano, o grupo perde 4 anos em Arton, que se passam sem a existência deles."
+                  ]
+                },
+                {
+                  "objetivo": "Encontrar mais pedaços do confabulário.",
+                  "status": "progresso",
+                  "resultados": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Puríssimo Metal",
+          "subquests": [
+            {
+              "nome": "Ascendere Vult",
+              "descricao": "O grupo é convidado por dois exploradores, Klaus e Ziom, para investigar uma ruína antiga de um forte ancestral chamado de Naberam.",
+              "concluida":true,
+              "pecas": [
+                {
+                  "objetivo": "Visitar as ruínas de Naberam.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo precisou fazer uma caminhada de uma semana até o local das ruínas, coisa que eles fazem sem problemas.",
+                    "No caminho, um lobo de estrelas misterioso surge durante a noite, é uma faceta de Allihanna que pede que o grupo destrua um mal ancião que está aprisionado nas ruínas."
+                  ]
+                },
+                {
+                  "objetivo": "Explorar as ruínas.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "Ao adentrarem as ruínas, Ziom se separa de Klaus e o grupo decide deixá-lo explorando sozinho a ruína para se encontrarem depois.",
+                    "Klaus diz ter descoberto o que queria, mas ao saírem da ruína são traídos e emboscados por Puristas, para os quais Klaus trabalha."
+                  ]
+                },
+                {
+                  "objetivo": "Reencontrar Ziom.",
+                  "status": "falha",
+                  "resultados": [
+                    "Em uma sala da ruína, Ziom é encontrado petrificado e Fephea encontra Maphal, uma múmia que estava presa ali."
+                  ]
+                },
+                {
+                  "objetivo": "Derrotar Maphal.",
+                  "status": "falha",
+                  "resultados": [
+                    "Fephea faz um acordo com Maphal e o liberta em troca de poder para si."
+                  ]
+                },
+                {
+                  "objetivo": "Sobreviver ao ataque purista.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo derrota os puristas e sai à salvo da ruína. No entanto, Klaus e uma general chamada Matilda escapam."
+                  ]
+                }
+              ]
+            },
+            {
+              "nome": "Scientia Valorem",
+              "descricao": "O grupo ouve rumores de movimentação dos puristas em um bosque próximo.",
+              "concluida":true,
+              "pecas": [
+                {
+                  "objetivo": "Interceptar os puristas no bosque.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo encontra-se com Matilda, uma generala purista e sua tropa. O grupo derrota a tropa, mas Matilda escapa teletransportando-se.",
+                    "O grupo descobre sobre as rédeas de ouro, um artefato capaz de controlar qualquer criatura, até mesmo um deus."
+                  ]
+                },
+                {
+                  "objetivo": "Impedir que os puristas obtenham um pedaço das rédeas de ouro.",
+                  "status": "falha",
+                  "resultados": [
+                    "O grupo vai para o centro do bosque, mas chega tarde demais. Eles conhecem a árvore feérica chamada de Hanghsyphus que foi atacada pelos puristas, que roubaram o pedaço da rédea dela."
+                  ]
+                },
+                {
+                  "objetivo": "Salvar Hanghsyphus.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo ajuda Hanghsyphus a se recuperar sacrificando seus cavalos que são sugados por ela."
+                  ]
+                }
+              ]
+            },
+            {
+              "nome": "Praeteritum Profundis",
+              "descricao": "O grupo ouve rumores de que os puristas estão procurando mais um pedaço da rédea nas ruínas de um lugar chamado Alkav.",
+              "concluida":true,
+              "pecas": [
+                {
+                  "objetivo": "Encontrar a Entrada de Alkav.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo adentra Alkav através de uma armadilha e são sugados para o semiplano onde uma versão da cidade está presa no tempo.",
+                    "O grupo descobre que os puristas já haviam adentrado o semiplano, e, além deles, alguma outra força sinistra, da Tormenta."
+                  ]
+                },
+                {
+                  "objetivo": "Encontrar os Puristas em Alkav.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo explora a cidade e acaba encontrando Matilda como a única sobrevivente de um massacre. Ela conta dos planos de encontrar o outro pedaço da Rédea de Ouro.",
+                    "O grupo encontra uma entidade conhecida como Medo da Morte protegendo o pedaço da Rédea de Ouro."
+                  ]
+                },
+                {
+                  "objetivo": "Derrotar Maphal.",
+                  "status": "falha",
+                  "resultados": [
+                    "O grupo falha em encontrar Maphal em Alkav e impedir os seus planos."
+                  ]
+                },
+                {
+                  "objetivo": "Sobreviver ao Medo da Morte.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo sobrevive ao encontro com o Medo da Morte. Acir morre no combate, mas, em vez disso, apenas a metade dríade dele, Amaryllis, é morta. O Medo rouba a alma de Amaryllis e deixa o grupo viver.",
+                    "O grupo aprende o primeiro pedaço das rédeas douradas, o Ritual da Noite e descobre que elas não são, na verdade, um artefato, e sim um ritual separado em vários passos."
+                  ]
+                },
+                {
+                  "objetivo": "Escapar de Alkav.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo consegue sair de Alkav desfazendo o semiplano e avançando quatro anos no futuro."
+                  ]
+                }
+              ]
+            },
+            {
+              "nome": "Praetempto Fides",
+              "descricao": "O grupo é contatado por Maurice Goldhaber, um ex-general purista agora bandido de estrada, através de Tollcane e Dalagah, dois do seu bando de ex-soldados da supremacia. Ele propõe para o grupo um desafio: Enfrentarão-se em combate, se vencerem ficam com Izzileria, se perderem se entregam para serem julgados perante a justiça do reinado.",
+              "concluida":true,
+              "pecas": [
+                {
+                  "objetivo": "Aceitar ou Negar o desafio de Maurice.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo viaja até o acampamento de Maurice para negociar os termos do desafio.",
+                    "A disputa é marcada na antiga pista do unicórnio negro. De um lado lutariam Edmund, Mônica e Raoni e do outro Maurice, Tollcane e Ravanagi."
+                  ]
+                },
+                {
+                  "objetivo": "Vencer a disputa contra os puristas.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "Maurice e os puristas perdem o combate, perdendo também os poderes concedidos pelo deus da guerra, agora Arsenal. Maurice apostou no deus errado e percebeu que Keen não era mais o deus da guerra.",
+                    "Os puristas se rendem e Ambrosia retorna, com o objetivo de levá-los à justiça, junto de uma comitiva do reinado."
+                  ]
+                },
+                {
+                  "objetivo": "Entregar os puristas para a justiça.",
+                  "status": "falha",
+                  "resultados": [
+                    "O grupo se nega a entregar os puristas nas mãos de Ambrosia. A medusa deixa a cidade prometendo retaliação, decepcionada.",
+                    "Maurice, Tollcane, Dalagah, Eirun, Moregraas e Ravanagi se juntam a izzileria como guardas da milícia."
+                  ]
+                },
+                {
+                  "objetivo": "Aceitar ou Negar a ajuda do Reinado.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo decide não aceitar a proposta de registrar Izzileria como uma cidade oficial do Reinado. A comitiva deixa Izzileria, decepcionada."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ]
-}
+    }

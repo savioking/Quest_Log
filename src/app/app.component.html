@@ -1,13 +1,20 @@
 <div style="height: 100vh; width: 100vw;" class="d-flex flex-column border border-5 border-dark">
   <div id="Header" class="custom-header border-bottom border-5 border-dark d-flex justify-content-center align-content-center">
-    <p>Quest Log</p>
+    <p>~ Quest Log ~</p>
+  </div>
+  
+  <div (click)="toggleSideBar()" class="float-menu">
+    <span class="dash"></span>
+    <span class="dash"></span>
+    <span class="dash"></span>
   </div>
   <div id="MainContent" class="d-flex flex-row flex-grow-1" style="height: 100px;">
-    <div id="Sidebar" class="custom-sidebar border-end border-5 border-dark d-flex flex-column">
-      
-      <div id="QuestContainer" class="d-flex flex-column" style="margin-bottom: 1rem;" *ngFor="let quest of nowJsonData.quests">
-        <a class="quest-link"><i class="bi bi-award-fill"></i> {{quest.nome}}</a>
-        <a class="subquest-link" (click)="selectSubquest(subquest)" *ngFor="let subquest of quest.subquests"><i class="bi bi-arrow-return-right"></i>  {{subquest.nome}}</a>
+
+
+    <div id="Sidebar" [ngClass]="{'sidebar-hidden':!sideBarOpen}" class="custom-sidebar border-end border-5 border-dark d-flex flex-column">
+      <div id="QuestContainer" class="quest-container d-flex flex-column" style="margin-bottom: 1rem;" *ngFor="let quest of nowJsonData.quests">
+        <a class="quest-link"><i class="bi bi-bookmark-fill"></i> {{quest.nome}}</a>
+        <a class="subquest-link" (click)="selectSubquest(subquest)" *ngFor="let subquest of quest.subquests"><i class="bi bi-arrow-return-right"></i>  {{subquest.nome}} <i *ngIf="subquest.concluida" class="bi bi-check-circle-fill"></i></a>
       </div>
     </div>
 
@@ -16,7 +23,10 @@
         <p style="text-align: center; font-size: 2rem; font-weight: bold;">{{selectedSubquest.nome}}</p>
         <p style="font-weight: 500;">{{selectedSubquest.descricao}}</p>
         <div id="Peca" *ngFor="let peca of selectedSubquest.pecas index as i" style="margin-bottom: 1rem;">
-          <a (click)="changePecaOpen(i)" style="font-weight: bold; cursor: pointer;"><i class="bi" [ngClass]="{'bi-caret-down-fill':currentIsPecasOpen[i],'bi-caret-right-fill':!currentIsPecasOpen[i]}"></i> {{peca.objetivo}}</a>
+          <a (click)="changePecaOpen(i)" [ngClass]="{'sucesso-color':peca.status=='sucesso','falha-color':peca.status=='falha'}" style="font-weight: bold; cursor: pointer;">
+            <i class="bi" [ngClass]="{'bi-caret-down-fill':currentIsPecasOpen[i],'bi-caret-right-fill':!currentIsPecasOpen[i]}"></i>
+             {{peca.objetivo}}
+          </a>
           <ng-container *ngIf="currentIsPecasOpen[i]">
             <p *ngFor="let resultado of peca.resultados" style="font-weight: 500;">{{resultado}}</p>
           </ng-container>
@@ -24,5 +34,4 @@
       </div>
     </div>
   </div>
-
 </div>
