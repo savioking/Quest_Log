@@ -324,20 +324,40 @@
                   "objetivo": "Decidir um fim para as Rédeas Douradas.",
                   "status": "progresso",
                   "resultados": []
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Sob as Ondas",
+          "subquests": [
+            {
+              "nome": "Naomi Desaparecida",
+              "descricao": "Ao voltarem depois de perderem quatro anos do tempo, o grupo descobre que Naomi, .",
+              "concluida":true,
+              "pecas": [
                 {
-                  "objetivo": "Entregar os puristas para a justiça.",
-                  "status": "falha",
-                  "resultados": [
-                    "O grupo se nega a entregar os puristas nas mãos de Ambrosia. A medusa deixa a cidade prometendo retaliação, decepcionada.",
-                    "Maurice, Tollcane, Dalagah, Eirun, Moregraas e Ravanagi se juntam a izzileria como guardas da milícia."
-                  ]
-                },
-                {
-                  "objetivo": "Aceitar ou Negar a ajuda do Reinado.",
+                  "objetivo": "Visitar as ruínas de Naberam.",
                   "status": "sucesso",
                   "resultados": [
-                    "O grupo decide não aceitar a proposta de registrar Izzileria como uma cidade oficial do Reinado. A comitiva deixa Izzileria, decepcionada."
+                    "O grupo precisou fazer uma caminhada de uma semana até o local das ruínas, coisa que eles fazem sem problemas.",
+                    "No caminho, um lobo de estrelas misterioso surge durante a noite, é uma faceta de Allihanna que pede que o grupo destrua um mal ancião que está aprisionado nas ruínas."
+                  ]
+                }
+              ]
+            },
+            {
+              "nome": "O Mar Emerso",
+              "descricao": "O grupo é convidado por dois exploradores, Klaus e Ziom, para investigar uma ruína antiga de um forte ancestral chamado de Naberam.",
+              "concluida":true,
+              "pecas": [
+                {
+                  "objetivo": "Visitar as ruínas de Naberam.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo precisou fazer uma caminhada de uma semana até o local das ruínas, coisa que eles fazem sem problemas.",
+                    "No caminho, um lobo de estrelas misterioso surge durante a noite, é uma faceta de Allihanna que pede que o grupo destrua um mal ancião que está aprisionado nas ruínas."
                   ]
                 }
               ]
