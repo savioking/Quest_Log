@@ -93,6 +93,30 @@
           ]
         },
         {
+          "nome": "A Maior Caçada",
+          "subquests": [
+            {
+              "nome": "A Maior Presa",
+              "descricao": "Acir Taiguara morreu na luta contra o deus menor Medo da Morte. Porém, sua alma permaneceu no mundo. O Medo da Morte dividiu a alma do dahllan na parte humana e na parte dríade, e levou consigo a parte dríade chamada Amaryllis. A parte humana de Acir tornou-se Raoni, que agora busca vingança",
+              "concluida":false,
+              "pecas": [
+                {
+                  "objetivo": "Encontrar uma forma de matar um deus.",
+                  "status": "progresso",
+                  "resultados": [
+                    "Raoni aprendeu todos os pedaços das Rédeas Douradas, deduzindo o ritual completo de se unir a Hippion, o deus menor dos cavalos."
+                  ]
+                },
+                {
+                  "objetivo": "Vingar-se do Medo da Morte.",
+                  "status": "progresso",
+                  "resultados": []
+                }
+              ]
+            }
+          ]
+        },
+        {
           "nome": "O Confabulário Possibilístico",
           "subquests": [
             {
@@ -283,6 +307,40 @@
                   ]
                 }
               ]
+            },
+            {
+              "nome": "Arbitria Ultimae",
+              "descricao": "Todos os puristas foram derrotados, pela Irmandade do Caos ou pelo tempo, e todos os pedaços das Rédeas Douradas foram encontrados e aprendidos. Resta decidir o que fazer com eles.",
+              "concluida":false,
+              "pecas": [
+                {
+                  "objetivo": "Decidir um fim para os Puristas.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "Foi decidido que os puristas derrotados seriam acolhidos em Izzileria e receberiam segundas chances. Eles foram colocados sob o comando e supervisão de Robin e Klaus na milícia da cidade."
+                  ]
+                },
+                {
+                  "objetivo": "Decidir um fim para as Rédeas Douradas.",
+                  "status": "progresso",
+                  "resultados": []
+                },
+                {
+                  "objetivo": "Entregar os puristas para a justiça.",
+                  "status": "falha",
+                  "resultados": [
+                    "O grupo se nega a entregar os puristas nas mãos de Ambrosia. A medusa deixa a cidade prometendo retaliação, decepcionada.",
+                    "Maurice, Tollcane, Dalagah, Eirun, Moregraas e Ravanagi se juntam a izzileria como guardas da milícia."
+                  ]
+                },
+                {
+                  "objetivo": "Aceitar ou Negar a ajuda do Reinado.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo decide não aceitar a proposta de registrar Izzileria como uma cidade oficial do Reinado. A comitiva deixa Izzileria, decepcionada."
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -364,7 +422,22 @@
             {
               "nome": "Pôr do Sol",
               "descricao": "Inevitáveis, construtos sagrados do deus do sol, estão perseguindo Haul Turing por algum motivo. Primeiro em sua casa e depois no semiplano da Torre Laranja, esses construtos aparentemente se denominam a Brigada do Sol Poente.",
-              "concluida":true,
+              "concluida":false,
+              "pecas": [
+                {
+                  "objetivo": "Enfrentar os Inevitáveis.",
+                  "status": "progresso",
+                  "resultados": [
+                    "Haul Turing propôs que o Inevitável preso na Torre fosse libertado para que pudesse retornar com reforços. Seu objetivo era confrontar os construtos e saber seus motivos.",
+                    "O Inevitável, chamado de Allicuga, foi liberto e retornou com outros quatro Inevitáveis. Eles atacaram o grupo."
+                  ]
+                }                
+              ]
+            },
+            {
+              "nome": "Asas para Liberdade",
+              "descricao": "Haul Turing disse que sua memória dos eventos que aconteceram em Terápolis milênios no passado estão nas asas que fez para si mesmo. Elas se perderam em algum lugar do universo quando ele tentou escapar do mundo e caiu em Arton.",
+              "concluida":false,
               "pecas": [
                 {
                   "objetivo": "Enfrentar os Inevitáveis.",
