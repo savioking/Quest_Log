@@ -26,9 +26,9 @@
       width: 0.5rem;
 }
      
-.quest-panel::-webkit-scrollbar-track {
-      /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
-}
+/* .quest-panel::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+} */
 
 .quest-panel::-webkit-scrollbar-thumb {
       background-color: lightsalmon;
@@ -88,10 +88,10 @@
             border: none !important;
       }
 
-      .quest-container.sidebar-hidden {
-            /* overflow: hidden; */
-            /* display: none !important; */
-      }
+      /* .quest-container.sidebar-hidden {
+            overflow: hidden;
+            display: none !important;
+      } */
 
       .quest-container {
             overflow: hidden;

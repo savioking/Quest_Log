@@ -285,6 +285,98 @@
               ]
             }
           ]
+        },
+        {
+          "nome": "O Homem Sem Tempo",
+          "subquests": [
+            {
+              "nome": "Horologium",
+              "descricao": "Durante a passagem por Alkav, o grupo encontrou uma estranha arma capaz de assumir diferentes formas com diferentes habilidades dependendo do usuário que a empunhasse. Um estranho nome sempre se mantinha gravado no metal dourado dela: Horologium.",
+              "concluida":true,
+              "pecas": [
+                {
+                  "objetivo": "Descobrir a origem da Arma.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "Após encontrarem um artefato mágico no subsolo de Alkav, o grupo descobriu que a arma caiu dos céus no passado, junto do artefato, e foi dada como presente divino. O povo da cidade não se decidia se foi um presente da deusa da noite ou do deus do sol.",
+                    "Fiammetta, ao perguntar para seu pai em uma carta sobre a arma, recebeu uma mensagem em código afirmando que o mesmo havia sido seu criador.",
+                    "Haul Turing, pai de Fiammetta, contou que Horologium havia sido uma criação sua a partir de suas memórias para servir como uma ferramenta de múltiplas formas durante sua fuga de Terápolis, o mundo divino da deusa do conhecimento."
+                  ]
+                },
+                {
+                  "objetivo": "Descobrir as habilidades da arma.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "Ao obterem a arma, cada membro do grupo descobriu uma versão dela, cada uma com uma alcunha diferente e um poder diferente ligado à manipulação do tempo e do espaço.",
+                    "Fiammetta, ao investigar a arma, descobre uma espécie de consciência em seu interior. Ela também pôde se comunicar primitivamente com ela.",
+                    "Fiammetta descobre como mudar a forma e as habilidades da arma à vontade. Antes havia uma forma e habilidade por criatura que interagisse com ela.",
+                    "Haul Turing, ao receber Horologium de volta, recupera suas memórias que estavam atreladas a ela e passa a usar a ferramenta como substituto para sua prótese de braço."
+                  ]
+                }
+              ]
+            },
+            {
+              "nome": "Torre Laranja",
+              "descricao": "Ao enviar uma carta para seu pai, Haul Turing, Fiammetta descobre que ele pode estar em perigo. Querendo mais informações e também salvá-lo, o grupo vai a Palthar encontrar sua casa.",
+              "concluida":true,
+              "pecas": [
+                {
+                  "objetivo": "Ir à casa de Haul Turing em Palthar.",
+                  "status": "falha",
+                  "resultados": [
+                    "O grupo encontra a casa de Haul Turing trancada. Ao adentrarem o local, encontram sua oficina bagunçada e sinais de batalha.",
+                    "Uma criatura construto caótica os ataca. Ao derrotarem ela, o grupo nota que se tratava de um Inevitável, um construto sagrado criado pelo deus do sol. Haul teria enfrentado o construto e ferido ele antes de fugir para algum lugar.",
+                    "Investigando a casa, o grupo encontra armas feitas para enfrentar construtos e um globo de vidro contendo uma miniatura de uma torre alaranjada no meio de um labirinto de cercas vivas."
+                  ]
+                },
+                {
+                  "objetivo": "Investigar o globo de vidro.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "Fiammetta descobre que o globo é a entrada de um semiplano, uma dimensão de bolso."
+                  ]
+                },
+                {
+                  "objetivo": "Investigar o semiplano da Torre Laranja.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "O grupo adentra o semiplano através de uma rachadura no globo de vidro. Eles se deparam com um labirinto de cercas vivas e vários desafios e quebra-cabeças feitos por Haul Turing para impedir a entrada de construtos que, supostamente, não poderiam resolvê-los.",
+                    "O grupo enfrenta um touro mecânico que guarda o interior do labirinto. Eles enganam o touro para que ele saia do labirinto e o prendem em um lago.",
+                    "O grupo encontra uma foca de voz angelical presa no fundo de um tanque vazio. Eles não conseguem uma maneira de encher o tanque.",
+                    "O grupo encontra uma série de ratos de fogo em piscinas de lava. Eles convencem os ratos a se juntarem em uma entidade só, um elemental meteórico chamado Trelinsp.",
+                    "Mônica encontra a Chave Errada, um artefato demoníaco. Ela usa ele para abrir a entrada da Torre Laranja e também um portal para o inferno. Um demônio chamado Bifrons ofereceu um pacto para Mônica.",
+                    "O grupo encontra um gigante de duas cabeças dentro da Torre, chamados de Poli e Femus. Eles dão as chaves das salas da torre quando são convencidos de que Fiammetta é filha de Haul.",
+                    "O grupo encontra um construto Inevitável preso no último andar da Torre. Ele mente, dizendo que é um mercenário e que não está mais interessado em Haul Turing.",
+                    "No topo da torre, o grupo encontra Haul Turing."
+                  ]
+                },
+                {
+                  "objetivo": "Encontrar Haul Turing.",
+                  "status": "sucesso",
+                  "resultados": [
+                    "Haul Turing não estava em sua casa em Palthar.",
+                    "Haul é encontrado no topo da Torre Laranja, escondendo-se dos Inevitáveis. Ele explica sua origem como Nuhtugrail, anjo da deusa do conhecimento e sobre suas criações de memória, Horologium e suas asas, que ainda estão perdidas.",
+                    "Haul explica que está sendo perseguido por Inevitáveis por ter fugido de Terápolis. Ele não lembra que evento fez ele fugir de lá e está buscando essa memória."
+                  ]
+                }
+              ]
+            },
+            {
+              "nome": "Pôr do Sol",
+              "descricao": "Inevitáveis, construtos sagrados do deus do sol, estão perseguindo Haul Turing por algum motivo. Primeiro em sua casa e depois no semiplano da Torre Laranja, esses construtos aparentemente se denominam a Brigada do Sol Poente.",
+              "concluida":true,
+              "pecas": [
+                {
+                  "objetivo": "Enfrentar os Inevitáveis.",
+                  "status": "progresso",
+                  "resultados": [
+                    "Haul Turing propôs que o Inevitável preso na Torre fosse libertado para que pudesse retornar com reforços. Seu objetivo era confrontar os construtos e saber seus motivos.",
+                    "O Inevitável, chamado de Allicuga, foi liberto e retornou com outros quatro Inevitáveis. Eles atacaram o grupo."
+                  ]
+                }                
+              ]
+            }
+          ]
         }
       ]
     }
