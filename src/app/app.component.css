@@ -12,8 +12,24 @@
       background-color: darksalmon;
       padding-top: 2rem;
       padding-right: 1rem;
+      overflow-y: scroll;
       /* transition: 0.4s width; */
       transition: 0.4s width;
+}
+
+.custom-sidebar::-webkit-scrollbar {
+      width: 0.5rem;
+}
+
+.custom-sidebar::-webkit-scrollbar-track {
+      padding-right: 10px;
+}
+
+.custom-sidebar::-webkit-scrollbar-thumb {
+      background-color: #212529;
+      outline: blanchedalmond;
+      border-radius: 1rem;
+
 }
 
 .quest-panel {
@@ -25,10 +41,6 @@
 .quest-panel::-webkit-scrollbar {
       width: 0.5rem;
 }
-     
-/* .quest-panel::-webkit-scrollbar-track {
-      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-} */
 
 .quest-panel::-webkit-scrollbar-thumb {
       background-color: lightsalmon;
@@ -36,6 +48,11 @@
       border-radius: 1rem;
 
 }
+
+/* .quest-panel::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+} */
+
 
 .quest-link {
       margin-left: 2rem;
@@ -94,7 +111,7 @@
       } */
 
       .quest-container {
-            overflow: hidden;
+            /* overflow: hidden; */
             white-space: nowrap;
       }
 
